@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylencoffee2.css">
+        <title>Ncoffe</title>
+    </head>
+<body>
+<header class="header">
+  <nav class="nav">
+    <a href="/" class="logo">
+  <img src="ncoffe-logo.png" alt="Ncoffee-logo" />
+  <span>Ncoffee</span>
+</a>
+
+    <button class="nav-toggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#order" class="cta">Order Now</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Wake up to reality!</h1>
+    <p>
+      From bold espresso shots to silky handcrafted lattes every cup is brewed with passion.  
+      Breathe in the aroma, savor the flavor, and taste the moment.  
+      Your daily ritual begins here.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#menu" class="btn primary">View Menu</a>
+      <a href="#order" class="btn secondary">Order Online</a>
+    </div>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="menu-header">
+    <h2>BEST COFFEE!</h2>
+    <p>Made with care and warmth.</p>
+  </div>
+
+  <div class="menu-grid">
+    <div class="menu-item">
+      <img src="https://sumatocoffee.com/cdn/shop/articles/espresso_d93cf1fb-0d4d-4da2-877f-c8226560ea4a.png?v=1758145494&width=640" alt="Espresso">
+      <h3>Espresso</h3>
+      <p class="price">₱239.00</p>
+      <p class="desc">Bold, rich, and smooth the pure essence of coffee.</p>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA=" alt="Cappuccino">
+      <h3>Cappuccino</h3>
+      <p class="price">₱279.00</p>
+      <p class="desc">Espresso, steamed milk, and silky foam harmony.</p>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://fancifuleats.com/wp-content/uploads/2023/03/salted-honey-oat-milk-latte-4.jpg" alt="Iced Latte">
+      <h3>Salted Iced Honey Latte</h3>
+      <p class="price">₱299.00</p>
+      <p class="desc">Chilled, creamy, and refreshingly smooth.</p>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYMszVDJIF-4IbMlmvHmzzsSFCMIebVunypg&s" alt="Mocha">
+      <h3>Mocha Iced Coffee</h3>
+      <p class="price">339.00</p>
+      <p class="desc">Chocolate meets espresso for the perfect indulgence.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="2ncoffee-interior.png" alt="Coffee shop interior" />
+    </div>
+
+    <div class="about-content">
+      <h2>About Ncoffee</h2>
+      <p>
+        At Ncoffee, we believe coffee is more than a drink it’s a moment of
+        warmth, connection, and creativity. Our beans are sourced sustainably
+        and roasted with passion, ensuring every cup delivers unforgettable flavor.
+      </p>
+      <p>
+        Whether you're here to study, relax, or meet friends, Ncoffee offers a
+        cozy space where everyone feels at home.
+      </p>
+
+      <a href="#menu" class="about-btn">Explore Our Menu</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section" aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="contact-left">
+      <h2 id="contact-heading">Get in touch</h2>
+      <p class="muted">Questions, orders, events, or wholesale we’d love to hear from you.</p>
+
+      <ul class="contact-info" aria-label="Ncoffee contact details">
+        <li>
+          <strong>Address</strong>
+          <span>HCDC, Davao, ph</span>
+        </li>
+        <li>
+          <strong>Hours</strong>
+          <span>Mon–Sun: 7:00 AM — 8:00 PM</span>
+        </li>
+        <li>
+          <strong>Phone</strong>
+          <a href="tel:+63 9668523804" class="link">+63 966 852 3804</a>
+        </li>
+        <li>
+          <strong>Email</strong>
+          <a href="mailto:Black@ncoffee.ph" class="link">Black@ncoffee.ph</a>
+        </li>
+      </ul>
+
+      <div class="socials" aria-hidden="false">
+        <!-- wami social media sa coffee! pahimoay pa kung maka grad.:) -->
+        <a href="#" class="social" aria-label="Ncoffee on Facebook">
+          <!-- Facebook SVG -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M22 12.07C22 6.49 17.52 2 11.95 2S1.9 6.49 1.9 12.07C1.9 17.06 5.84 21.17 10.66 22v-7.01H8.08v-2.92h2.58V9.41c0-2.55 1.52-3.96 3.84-3.96 1.12 0 2.29.2 2.29.2v2.52h-1.29c-1.27 0-1.66.78-1.66 1.58v1.9h2.82l-.45 2.92h-2.37V22C18.16 21.17 22 17.06 22 12.07z" fill="currentColor"/>
+          </svg>
+        </a>
+        <a href="#" class="social" aria-label="Ncoffee on Instagram">
+          <!-- Instagram SVG -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 6.2a4.8 4.8 0 100 9.6 4.8 4.8 0 000-9.6zM18 6.5a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0z" fill="currentColor"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <form class="contact-form" action="#" method="POST" novalidate aria-describedby="form-status">
+        <div class="form-row">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" required placeholder="e.g. Maria Santos" />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@domain.com" />
+        </div>
+
+        <div class="form-row">
+          <label for="phone">Phone (optional)</label>
+          <input id="phone" name="phone" type="tel" placeholder="+63 9xx xxx xxxx" />
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required placeholder="Tell us about your inquiry..."></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn-submit">Send message</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </div>
+
+        <!-- Note: replace the action attr with your form handler endpoint or integrate with email/API -->
+        <!-- yez po -->
+      </form>
+
+      <div class="map-embed" aria-hidden="false" title="Ncoffee location on map">
+
+        <!-- Replace the src with your Google Maps embed URL -->
+        <!-- yez po --> 
+         
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="order" class="order-section" aria-labelledby="order-heading">
+  <div class="container">
+    <header class="order-header">
+      <div>
+        <h2 id="order-heading">Order Now</h2>
+        <p class="muted">Quick pickup or delivery — freshly brewed & ready.</p>
+      </div>
+
+      <div class="order-controls" role="toolbar" aria-label="Order filters">
+        <label class="control">
+          <select aria-label="Choose category" id="category-select">
+            <option value="all">All</option>
+            <option value="hot">Hot</option>
+            <option value="cold">Cold</option>
+            <option value="pastry">Pastries</option>
+          </select>
+        </label>
+        <label class="control">
+          <select aria-label="Sort by" id="sort-select">
+            <option value="popular">Most popular</option>
+            <option value="price-low">Price — low to high</option>
+            <option value="price-high">Price — high to low</option>
+          </select>
+        </label>
+      </div>
+    </header>
+
+    <div class="products-grid" role="list">
+      <!-- Product card -->
+      <article class="product-card" role="listitem" data-category="hot">
+        <img src="https://sumatocoffee.com/cdn/shop/articles/espresso_d93cf1fb-0d4d-4da2-877f-c8226560ea4a.png?v=1758145494&width=640" alt="Espresso shot" />
+        <div class="card-body">
+          <div class="card-head">
+            <h3 class="prod-title">Espresso</h3>
+            <span class="prod-price">₱239.00</span>
+          </div>
+
+          <p class="prod-desc">Pure single-shot espresso — bold & concentrated.</p>
+
+          <fieldset class="sizes" aria-label="Choose size">
+            <legend class="sr-only">Size</legend>
+            <label><input type="radio" name="size-espresso" checked aria-checked="true" /> S</label>
+            <label><input type="radio" name="size-espresso" aria-checked="false" /> M</label>
+            <label><input type="radio" name="size-espresso" aria-checked="false" /> L</label>
+          </fieldset>
+
+          <div class="card-actions">
+            <button class="btn-add" type="button" aria-label="Add Espresso to cart">Add</button>
+            <button class="btn-details" type="button" aria-label="View Espresso details">Details</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Repeat product cards as needed -->
+      <article class="product-card" role="listitem" data-category="hot">
+        <img src="https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA=" alt="Cappuccino in cup" />
+        <div class="card-body">
+          <div class="card-head">
+            <h3 class="prod-title">Cappuccino</h3>
+            <span class="prod-price">₱279.00</span>
+          </div>
+          <p class="prod-desc">Espresso, velvety steamed milk, and creamy foam.</p>
+
+          <fieldset class="sizes" aria-label="Choose size">
+            <legend class="sr-only">Size</legend>
+            <label><input type="radio" name="size-cappuccino" checked /> S</label>
+            <label><input type="radio" name="size-cappuccino" /> M</label>
+            <label><input type="radio" name="size-cappuccino" /> L</label>
+          </fieldset>
+
+          <div class="card-actions">
+            <button class="btn-add" type="button">Add</button>
+            <button class="btn-details" type="button">Details</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="cold">
+        <img src="https://fancifuleats.com/wp-content/uploads/2023/03/salted-honey-oat-milk-latte-4.jpg" alt="Salted Iced Honey Latte" />
+        <div class="card-body">
+          <div class="card-head">
+            <h3 class="prod-title">Salted Iced Honey Latte</h3>
+            <span class="prod-price">₱299</span>
+          </div>
+          <p class="prod-desc">Chilled espresso with milk and a touch of sweetness.</p>
+
+          <fieldset class="sizes" aria-label="Choose size">
+            <legend class="sr-only">Size</legend>
+            <label><input type="radio" name="size-iced-latte" checked /> S</label>
+            <label><input type="radio" name="size-iced-latte" /> M</label>
+            <label><input type="radio" name="size-iced-latte" /> L</label>
+          </fieldset>
+
+          <div class="card-actions">
+            <button class="btn-add" type="button">Add</button>
+            <button class="btn-details" type="button">Details</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="pastry">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYMszVDJIF-4IbMlmvHmzzsSFCMIebVunypg&s" alt="Mocha Iced Coffee" />
+        <div class="card-body">
+          <div class="card-head">
+            <h3 class="prod-title">Mocha Iced Coffee</h3>
+            <span class="prod-price">₱339.00</span>
+          </div>
+          <p class="prod-desc">Buttery, flaky pastry filled with almond cream.</p>
+
+          <div class="card-actions">
+            <button class="btn-add" type="button">Add</button>
+            <button class="btn-details" type="button">Details</button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Desktop cart summary (visual only; functional with JS) -->
+    <aside class="cart-summary" aria-label="Cart summary" aria-hidden="true">
+      <h3>Cart</h3>
+      <div class="cart-items">
+        <p class="muted">No items yet</p>
+      </div>
+      <div class="cart-total">
+        <span>Total</span>
+        <strong>₱0</strong>
+      </div>
+      <button class="btn-checkout" type="button" disabled>Checkout</button>
+    </aside>
+  </div>
+
+  <!-- Mobile sticky order bar -->
+  <div class="mobile-order-bar" aria-hidden="true">
+    <div class="mo-left">
+      <span class="mo-count">0</span>
+      <span class="mo-text">items</span>
+    </div>
+    <div class="mo-right">
+      <strong class="mo-total">₱0</strong>
+      <button class="btn-checkout small" type="button" disabled>Checkout</button>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo" aria-labelledby="footer-heading">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="ncoffe-logo.png" class="footer-logo" aria-label="Ncoffee home">
+
+        <strong>Ncoffee</strong>
+      </a>
+      <p class="footer-tag">House-roasted • Warm space • Community first</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <address>
+          HCDC<br />
+          Davao, Philippines
+        </address>
+        <p class="hours">
+          <strong>Hours</strong><br />
+          Mon–Sun: 7:00 AM — 8:00 PM
+        </p>
+        <a class="footer-link" href="tel:+639668523804">+63 966 852 3804</a><br />
+        <a class="footer-link" href="mailto:black@ncoffee.ph">Black@ncoffee.ph</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <ul>
+          <li><a class="footer-link" href="#menu">Our Menu</a></li>
+          <li><a class="footer-link" href="#order">Order Online</a></li>
+          <li><a class="footer-link" href="#about">About</a></li>
+          <li><a class="footer-link" href="#events">Events</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a class="footer-link" href="#careers">Careers</a></li>
+          <li><a class="footer-link" href="#wholesale">Wholesale</a></li>
+          <li><a class="footer-link" href="/privacy">Privacy</a></li>
+          <li><a class="footer-link" href="/terms">Terms</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-news">
+        <h4>Join our newsletter</h4>
+        <p class="muted">Get 10% off your first order and updates on specials.</p>
+        <form class="newsletter-form" action="#" method="POST" novalidate>
+          <label class="sr-only" for="footer-email">Email address</label>
+          <input id="footer-email" type="email" name="email" placeholder="you@domain.com" required />
+          <button type="submit" class="btn-news">Subscribe</button>
+        </form>
+
+        <div class="footer-social" aria-label="Social links">
+          <a href="#" class="social" aria-label="Ncoffee on Facebook">
+
+            <!-- small SVG icon -->
+
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 12.07C22 6.49 17.52 2 11.95 2S1.9 6.49 1.9 12.07C1.9 17.06 5.84 21.17 10.66 22v-7.01H8.08v-2.92h2.58V9.41c0-2.55 1.52-3.96 3.84-3.96 1.12 0 2.29.2 2.29.2v2.52h-1.29c-1.27 0-1.66.78-1.66 1.58v1.9h2.82l-.45 2.92h-2.37V22C18.16 21.17 22 17.06 22 12.07z" fill="currentColor"/></svg>
+          </a>
+          <a href="#" class="social" aria-label="Ncoffee on Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 6.2a4.8 4.8 0 100 9.6 4.8 4.8 0 000-9.6zM18 6.5a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0z" fill="currentColor"/></svg>
+          </a>
+          <a href="#" class="social" aria-label="Ncoffee on X">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 4.01c-.65.28-1.35.47-2.08.56.75-.45 1.33-1.15 1.6-1.99-.7.42-1.48.72-2.31.88A3.64 3.64 0 0015.5 2c-2.02 0-3.66 1.64-3.66 3.66 0 .29.03.58.09.86C8.31 6.32 5.38 4.7 3.1 2.08c-.32.55-.5 1.18-.5 1.86 0 1.28.65 2.41 1.63 3.08-.6-.02-1.17-.18-1.67-.46v.05c0 1.78 1.27 3.26 2.95 3.6-.31.08-.63.12-.96.12-.23 0-.46-.02-.68-.06.46 1.43 1.8 2.48 3.39 2.51A7.31 7.31 0 012 19.54 10.32 10.32 0 006.29 21c6.6 0 10.21-5.48 10.21-10.23v-.47c.7-.5 1.28-1.13 1.75-1.84-.64.28-1.32.47-2.03.56.73-.44 1.29-1.14 1.65-1.97z" fill="currentColor"/></svg>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="copyright">
+      &copy; <span id="year"></span> Ncoffee. All rights reserved.
+    </div>
+    <div class="small-links">
+      <a class="footer-link" href="/sitemap.xml">Sitemap</a>
+      <a class="footer-link" href="/press">Press</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
