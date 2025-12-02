@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="stylencoffee2.css">
         <title>Ncoffe</title>
     </head>
 <body>
 <header class="header">
   <nav class="nav">
-    <a href="/" class="logo">
+    <a href="#home" class="logo">
   <img src="ncoffe-logo.png" alt="Ncoffee-logo" />
   <span>Ncoffee</span>
 </a>
 
     <button class="nav-toggle" aria-label="Open menu">
-      <span></span><span></span><span></span>
     </button>
 
     <ul class="nav-links">
@@ -73,7 +74,7 @@
     <div class="menu-item">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYMszVDJIF-4IbMlmvHmzzsSFCMIebVunypg&s" alt="Mocha">
       <h3>Mocha Iced Coffee</h3>
-      <p class="price">339.00</p>
+      <p class="price">₱339.00</p>
       <p class="desc">Chocolate meets espresso for the perfect indulgence.</p>
     </div>
   </div>
@@ -173,13 +174,7 @@
 
         <!-- Note: replace the action attr with your form handler endpoint or integrate with email/API -->
         <!-- yez po -->
-      </form>
-
-      <div class="map-embed" aria-hidden="false" title="Ncoffee location on map">
-
-        <!-- Replace the src with your Google Maps embed URL -->
-        <!-- yez po --> 
-         
+      </form>         
         
       </div>
     </div>
@@ -286,7 +281,7 @@
         </div>
       </article>
 
-      <article class="product-card" role="listitem" data-category="pastry">
+      <article class="product-card" role="listitem" data-category="Hot">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYMszVDJIF-4IbMlmvHmzzsSFCMIebVunypg&s" alt="Mocha Iced Coffee" />
         <div class="card-body">
           <div class="card-head">
@@ -304,6 +299,8 @@
     </div>
 
     <!-- Desktop cart summary (visual only; functional with JS) -->
+    <!-- No to JS muna ) -->
+
     <aside class="cart-summary" aria-label="Cart summary" aria-hidden="true">
       <h3>Cart</h3>
       <div class="cart-items">
@@ -334,7 +331,6 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <a href="ncoffe-logo.png" class="footer-logo" aria-label="Ncoffee home">
-
         <strong>Ncoffee</strong>
       </a>
       <p class="footer-tag">House-roasted • Warm space • Community first</p>
